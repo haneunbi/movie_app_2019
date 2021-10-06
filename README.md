@@ -27,6 +27,13 @@ list.map(item => {
 });
 ```
 
+```js
+import {HashRouter, BrowserRouter, Route} from 'react-router-dom';
+```
+BrowserRouter가 url이 깔끔하나 github pages에선 HashRouter 설정이 용이
+- [React Router](https://reactrouter.com/web/api/Link/to-object)
 
-[ReactJS로 영화 웹 서비스 만들기 – 노마드 코더 Nomad Coders](https://nomadcoders.co/react-fundamentals)
-[PropTypes와 함께 하는 타입 확인 - React](https://ko.reactjs.org/docs/typechecking-with-proptypes.html)
+
+- [ReactJS로 영화 웹 서비스 만들기 – 노마드 코더 Nomad Coders](https://nomadcoders.co/react-fundamentals)
+- [PropTypes와 함께 하는 타입 확인 - React](https://ko.reactjs.org/docs/typechecking-with-proptypes.html)
+- [Hook의 개요 – React](https://ko.reactjs.org/docs/hooks-intro.html)
