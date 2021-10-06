@@ -1,6 +1,6 @@
 # Movie App 2019
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://haneunbi.github.io/movie_app_2019/
 
 ```
 git init
@@ -9,6 +9,15 @@ git add .
 git commit -m "msg"
 git push origin master
 ```
+
+```
+git branch gh-pages
+git add .
+git commit -m "msg"
+git push origin gh-pages
+```
+푸시 완료 후 GitHub Repository 에서 'Setting' 메뉴로 이동  
+Setting > GitHub Pages > Source 를 'gh-pages' 브랜치로 변경  
 
 JSX : JavaScript 안의 HTML
 
@@ -32,6 +41,7 @@ import {HashRouter, BrowserRouter, Route} from 'react-router-dom';
 ```
 BrowserRouter가 url이 깔끔하나 github pages에선 HashRouter 설정이 용이
 - [React Router](https://reactrouter.com/web/api/Link/to-object)
+
 
 
 - [ReactJS로 영화 웹 서비스 만들기 – 노마드 코더 Nomad Coders](https://nomadcoders.co/react-fundamentals)
