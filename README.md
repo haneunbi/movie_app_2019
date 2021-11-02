@@ -3,6 +3,12 @@
 https://haneunbi.github.io/movie_app_2019/
 
 ```
+npx -v (버전 체크)
+npm i -g npx (설치 필요시)
+npx create-react-app movie_app_2019
+```
+
+```
 git init
 git remote add origin <*.git>
 git add .
